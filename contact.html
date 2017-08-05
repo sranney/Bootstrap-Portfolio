@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"><!--if Internet Explorer is used to open page-->
+	<meta name="viewport" content="width=device-width,initial-scale=1"><!--if page is open on device-->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Contact Me</title>
+
+
+</head>
+<body>
+	
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand">Spencer Ranney</a>
+			</div>
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav hidden-md hidden-lg navbar-right connect">
+					<li><a href="https://www.linkedin.com/in/spencer-ranney/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+					<li><a href="https://github.com/sranney" target="_blank"><span class="fa fa-github"></span></a></li>
+					<li><a href="https://stackoverflow.com/cv/spencer-ranney" target="_blank"><span class="fa fa-stack-overflow"></span></a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html"><span class="glyphicon glyphicon-user fa-fw"></span>About</a></li>
+			        <li class="dropdown dropdown-accordion" data-accordion="#accordion">
+			        	<a href="#" class="dropdown-toggle port-menu" data-toggle="dropdown"><span class="fa fa-folder fa-fw"></span>Portfolio<b class="caret"></b></a>
+			            <ul class="dropdown-menu">
+			              <li><a id="panelheader" href="portfolio.html">Index<span class="fa fa-fw"><span class="fa fa-arrow-right"></span></span></a></li>
+			              <li>
+			                <div class="panel-group" id="accordion">
+			                  <div class="panel panel-default">
+			                    <div class="panel-heading">
+			                      <a id="panelheader" href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+			                        <h4 class="panel-title">
+			                          Category 1
+			                          <span class="listdrop fa fa-plus-circle"></span>
+			                        </h4>
+			                      </a>
+			                    </div>
+			                    <div class="panel-collapse collapse cat1" id="collapseOne">
+			                      <div class="panel-body">
+			                        <a href="#">Project 1</a><br>
+			                        <a href="#">Project 2</a>
+			                      </div>
+			                    </div>
+			                  </div>
+			                  <div class="panel panel-default">
+			                    <div class="panel-heading">
+			                      <a id="panelheader" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">
+			                        <h4 class="panel-title">
+			                          Category 2
+			                          <span class="listdrop fa fa-plus-circle"></span>
+			                        </h4>
+			                      </a>
+			                    </div>
+			                    <div class="panel-collapse collapse cat2" id="collapseTwo">
+			                      <div class="panel-body">
+			                        <a href="#">Project 1</a><br>
+			                        <a href="#">Project 2</a><br>
+			                        <a href="#">Project 3</a>
+			                      </div>
+			                    </div>
+			                  </div>
+			                  <div class="panel panel-default">
+			                    <div class="panel-heading">
+			                      <a id="panelheader" href="#collapseThree" data-toggle="collapse" data-parent="#accordion">
+			                        <h4 class="panel-title">
+			                          Category 3
+			                          <span class="listdrop fa fa-plus-circle"></span>
+			                        </h4>
+			                      </a>
+			                    </div>
+			                    <div class="panel-collapse collapse cat3" id="collapseThree">
+			                      <div class="panel-body">
+			                        <a href="#">Project 1</a><br>
+			                        <a href="#">Project 2</a><br>
+			                        <a href="#">Project 3</a>
+			                      </div>
+			                    </div>
+			                  </div>
+			                  <div class="panel panel-default">
+			                    <div class="panel-heading">
+			                      <a id="panelheader" href="#collapseFour" data-toggle="collapse" data-parent="#accordion">
+			                        <h4 class="panel-title">
+			                          Category 4
+			                          <span class="listdrop fa fa-plus-circle"></span>
+			                        </h4>
+			                      </a>
+			                    </div>
+			                    <div class="panel-collapse collapse cat4" id="collapseFour">
+			                      <div class="panel-body">
+			                        <a href="#">Project 1</a><br>
+			                        <a href="#">Project 2</a><br>
+			                        <a href="#">Project 3</a>
+			                      </div>
+			                    </div>
+			                  </div>
+			                </div>
+
+			              </li>
+			            </ul>
+			          </li>
+					<li class="active"><a href="contact.html"><span class="fa fa-envelope fa-fw"></span>Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container">
+		<div class="main col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<h1>Fill out this form to send me an introductory email.</h1>
+			<form action="mailto:spencerranney@gmail.com?subject=New%20Contact%20Email" method="post" enctype="text/plain"><!--post is used to request the web server to receive the data sent in the HTTP message body. get is used to retrieve data from the web server-->
+			<fieldset>
+				<legend>Contact Information</legend>
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-user"></i></span>
+								<input type="text" class="form-control" id="inputName" name="Name" placeholder="Enter your name">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+						<div class="form-group">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-at"></i></span>
+								<input type="email" class="form-control" id="inputEmail" name="Email" placeholder="Enter your email address">
+							</div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Message<span class="fa fa-fw fa-pencil"></span></legend>
+			    <div class="form-group">
+			      	<textarea class="form-control" rows="5" id="comment" name="Message" placeholder="Q: What did everyone say about the mushroom?   A: He's a fun-guy"></textarea>
+			    </div>
+				<p><button type="submit" name="Submit" class="btn btn-primary submitbtn">Submit<span class="fa fa-fw fa-check"></span></button></p>
+			</fieldset>
+			</form>		
+		</div>
+		<div class="jumbotron sideBar hidden-xs hidden-sm col-md-2 col-lg-4">
+			<a href="https://www.linkedin.com/in/spencer-ranney/" target="_blank"><button class="btn btn-primary"><span class="fa fa-linkedin fa-3x fa-fw"></span></button></a>
+			<a href="https://github.com/sranney" target="_blank"><button class="btn btn-primary"><span class="fa fa-github fa-3x fa-fw"></span></button></a>
+			<a href="https://stackoverflow.com/cv/spencer-ranney" target="_blank"><button class="btn btn-primary"><span class="fa fa-stack-overflow fa-3x"></span></button></a>
+		</div>			
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/2a8a6780db.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/js/custom js.js"></script>
+
+</body>
+</html>

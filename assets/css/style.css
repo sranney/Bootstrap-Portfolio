@@ -1,0 +1,417 @@
+/*sets background for all pages*/
+body{
+	background-image:url("../images/01-place-inside-psd.jpg");
+	-webkit-background-size: cover;
+}
+
+/*sets stylings for navigation bar.*/
+.navbar{/*customization of bootstrap navbar*/
+    background-color:#2C3E50;
+    border:0px;
+    border-radius:0px;
+}
+
+nav.navbar.navbar-default.portfolio-page{/*to better fit the placement of content on the portfolio index page*/
+	margin-bottom:0px;
+}
+
+
+.navbar-default .navbar-nav>.active>a{/*set format for active page on navigation bar*/
+	background-color:#FFFAE4;
+	color:#2C3E50;		
+}
+
+.navbar-default .navbar-brand:hover{/*sets what happens when you hover over my name in the navbar*/
+	color:#FFFAE4;	
+}
+
+.navbar-default .navbar-nav>.active>a:hover{/*sets what happens when you hover over the active page in the menu of the navbar*/
+	background-color:#FFFAE4;
+	color:#2C3E50;			
+	-webkit-transform: scale(1.2);
+	font-weight:bold;
+}
+
+.navbar-default .navbar-brand{ /*sets format and fontsize for my name*/
+	color:#FFFAE4;
+	font-size:35px;
+}
+
+
+.navbar-default .navbar-nav>li>a {/*set format for menu on navigation bar*/
+    color:#FFFAE4;
+	font-size:20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{/*sets what happens when you mouseover menu items*/
+	background-color:#FFFAE4;
+	color:#2C3E50;			
+	-webkit-transform: scale(1.2);
+	font-weight:bold;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.active>a:focus{/*sets what happens when you click on menu items*/
+    background-color:#2C3E50;		    
+    color:#FFFAE4;			
+}
+
+.dropdown-menu{/*sets stylings of dropdown menu for portfolio*/
+	background-color:#2C3E50;
+}
+
+.dropdown-menu>li>a{/*sets font color for dropdown menu items*/
+	color:#FFFAE4;
+}
+
+.panel-default{/*removes the border for any panel-default*/
+	border:0px;
+}
+
+.panel-default>.panel-heading{/*changes the color for all headings that are a part of a default styled panel*/
+	background-color:#2C3E50;	
+}
+
+.panel-title{/*sets font color for titles in panels*/
+	color:#FFFAE4;
+	text-decoration:none;
+}
+
+.dropdown-accordion .panel-heading {/*removes padding fo all panel headings in the dropdown-accordion in the portfolio menu*/
+  padding: 0;
+}
+
+.dropdown-accordion .panel-heading a {/*for alignment of headers*/
+  display: block;
+  padding: 10px 15px;
+}
+
+a#panelheader:hover{/*for mouseover of portfolio dropdown items*/
+	background-color:#FFFAE4;
+	color:#2C3E50;			
+	text-decoration:none;
+}
+
+a#panelheader:hover .panel-title{/*for mouseover of portfolio dropdown items*/
+	background-color:#FFFAE4;
+	color:#2C3E50;			
+	text-decoration:none;
+}
+
+.img-thumbnail{/*for background of portfolio picture*/
+	background-color:#2C3E50;
+	border:0px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.page-header{
+	text-align:left;
+	padding:0px;
+	margin:15px;
+	border-bottom: 2.4px solid #2C3E50;
+}
+
+body > div > div.jumbotron.col-xs-12.col-sm-12.col-md-12.col-lg-12.portjumbo > div{
+	text-align:center;
+}
+
+body > div > div.jumbotron.col-xs-12.col-sm-12.col-md-12.col-lg-12.portjumbo > p{
+	text-align:center;
+}
+
+.page-header>a{
+	margin-left:5px;
+	font-weight:700;
+	font-style:italic;
+	font-size:60px;
+	text-decoration:none;
+	color:#2C3E50;
+	line-height:45px;
+	padding:0px;
+}
+
+.jumbotron{
+	background-color:#FFFAE4;
+	padding:20px 25px 20px 25px;
+	border-style:solid;
+	text-align:center;
+	color: #2C3E50;
+	margin-bottom:15px;
+}
+
+.jumbotron.portjumbo{
+	background-color:#2C3E50;
+	padding:20px 25px 20px 25px;
+	border-style:solid;
+	text-align:center;
+	color: #FFFAE4;
+	margin-bottom:15px;
+}
+
+.jumbotron>h1{
+	margin-top:0px;
+	padding-top:25px;
+	line-height:100px;
+	font-size:125px;
+	color:#2C3E50;
+}
+
+.jumbotron.portjumbo>.page-header>a{
+	margin-top:0px;
+	padding-top:25px;
+	line-height:100px;
+	font-size:60px;
+	color:#FFFAE4;
+	border-bottom: 2.4px solid #FFFAE4;
+}
+
+.jumbotron.portjumbo>.page-header{
+	margin:0px;
+}
+
+.jumbotron>p{
+	margin:0px 15px 0px 15px;
+	text-align:left;
+}
+
+.container{
+	width:95%;
+}
+
+.col-md-offset-1, 
+.col-lg-offset-1{
+	margin-left:3.0%;
+}
+
+div.jumbotron.sideBar.col-md-2.col-lg-4{
+	padding:20px;
+	background: transparent;
+}
+
+
+.dropdown-menu>li>a{
+	font-size:16px;
+	padding:15px;
+}
+
+ul>li>.fa-arrow-right{
+	display:none;
+}
+ul>li:hover .fa-arrow-right{
+	display:inline-block;
+}
+
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover{
+	background-color:#FFFAE4;
+	color:#2C3E50;	
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover{
+	background-color:#FFFAE4;
+	color:#2C3E50;	
+}
+
+span.listdrop.fa.fa-plus-circle{
+	display:none
+}
+
+a#panelheader:hover span.listdrop.fa.fa-plus-circle{
+	display:inline-block;
+}
+
+span.listdrop.fa.fa-minus-circle{
+	display:none
+}
+
+a#panelheader:hover span.listdrop.fa.fa-minus-circle{
+	display:inline-block;
+}
+
+span.listdrop.fa.fa-folder{
+	display:none
+}
+
+a#panelheader:hover span.listdrop.fa.fa-folder{
+	display:inline-block;
+}
+
+span.listdrop.fa.fa-folder-open{
+	display:none
+}
+
+a#panelheader:hover span.listdrop.fa.fa-folder-open{
+	display:inline-block;
+}
+
+
+span.fa.fa-arrow-right{
+	display:none
+}
+
+a#panelheader:hover span.fa.fa-arrow-right{
+	display:inline-block;
+}
+
+@media only screen and (max-width:800px){
+
+	.navbar-default .navbar-nav>.active>a:hover{
+		-webkit-transform: scale(1.0);
+	}
+
+	.navbar-default .navbar-nav>li>a:hover{
+		-webkit-transform: scale(1.0);
+		font-weight:400;
+	}
+
+	.navbar-default .navbar-nav>.active>a:hover{
+		-webkit-transform: scale(1.0);
+		font-weight:400;
+	}
+	
+}
+
+.btn{
+	border-radius:15px;
+	width:90px;
+	height:90px;
+	margin:15px;
+	float:none;
+}
+
+.port-btn{
+	margin-top:-10px;
+}
+
+.btn:hover{
+	border-radius:45px;
+}
+
+.btn-primary{
+    background-color:#2C3E50;	
+    color:#FFFAE4;
+    border:0px;
+}
+
+.btn-primary:hover{
+    color:#2C3E50;	
+    background-color:#FFFAE4;	
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body{
+	border-top:2px solid #ddd;
+	background-color:#FFFAE4;
+}
+
+.panel-collapse>.panel-body>a{
+	color:#2C3E50;
+}
+
+ul.nav.navbar-nav.hidden-md.hidden-lg.navbar-right.connect>li{
+	padding-right:25px;
+	display:inline-block;
+}
+
+@media (max-width: 767px){
+	.navbar-nav .open .dropdown-menu>li>a{
+		padding-left:15px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color:#FFFAE4;
+	}
+}
+
+
+@media (max-width: 1350px){
+	body{
+		background-size: auto;
+	}
+}
+
+.main{
+	background-color:#2C3E50;
+	border-radius:15px;
+}
+
+.main>h1{
+	color:#FFFAE4;
+}
+
+fieldset>legend{
+	color:#FFFAE4;
+}
+
+.submitbtn{
+	border:2px solid #bbb;
+	width:300px;
+	font-size:30px;
+}
+
+.submitbtn:hover{
+	color:#2C3E50;	
+    background-color:#FFFAE4;
+    border-radius:15px;
+
+}
+
+span.input-group-addon{
+    background-color:#2C3E50;	
+    color:#FFFAE4;
+}
+
+input#inputName.form-control,
+input#inputEmail.form-control,
+textarea,
+{
+	background-color:#FFFAE4;
+	color:#2C3E50;
+}
+
+.form-control:focus {
+	border:0px;
+	-webkit-box-shadow:0px;
+	box-shadow:0px;
+}
+
+.main{
+	background-color:#2C3E50;
+	border-radius:15px;
+}
+
+h4.panel-title.port{
+	font-size:30px;
+}
+
+.portcontainer{
+	background-color:transparent;
+}
+
+body > div > div.jumbotron.sideBar.hidden-xs.hidden-sm.col-md-12.col-lg-12.portcontainer > a > button{
+	height:60px;
+	width:60px;
+}
+
+body > div > div.jumbotron.sideBar.hidden-xs.hidden-sm.col-md-12.col-lg-12.portcontainer{
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+body > div > div.jumbotron.col-xs-12.col-sm-12.col-md-12.col-lg-12.portcontainer{
+	padding-top:0px;
+}
+
+body > div > div.jumbotron.sideBar.hidden-xs.hidden-sm.col-md-12.col-lg-12.portcontainer{
+	height:70px;
+}
+
+body > div > div.jumbotron.col-xs-12.col-sm-12.col-md-12.col-lg-12.portjumbo{
+	margin-bottom:0px;
+}
+
+@media (max-width: 1010px){
+	.panel-group{margin-top:20px;}
+}
