@@ -118,8 +118,8 @@
 	</nav>
 
 
-	<div class="container">
-		<div class="main col-xs-12 col-sm-12 col-md-8 col-lg-8">
+	<div class="container container_contact">
+		<div class="main col-xs-12 col-sm-12 col-md-8 col-lg-8 mainform">
 			<h1>Fill out this form to send me an introductory email.</h1>
 			<form action="mailto:spencerranney@gmail.com?subject=New%20Contact%20Email" method="post" enctype="text/plain"><!--post is used to request the web server to receive the data sent in the HTTP message body. get is used to retrieve data from the web server-->
 			<fieldset>
@@ -150,16 +150,23 @@
 			    <div class="form-group">
 			      	<textarea class="form-control" rows="5" id="comment" name="Message" placeholder="Q: What did everyone say about the mushroom?   A: He's a fun-guy"></textarea>
 			    </div>
-				<p><button type="submit" name="Submit" class="btn btn-primary submitbtn">Submit<span class="fa fa-fw fa-check"></span></button></p>
+				<p><button type="submit" name="Submit" class="submitbtn">Submit<span class="fa fa-fw fa-check"></span></button></p>
 			</fieldset>
 			</form>		
 		</div>
 		<div class="jumbotron sideBar hidden-xs hidden-sm col-md-2 col-lg-4">
-			<a href="https://www.linkedin.com/in/spencer-ranney/" target="_blank"><button class="btn btn-primary"><span class="fa fa-linkedin fa-3x fa-fw"></span></button></a>
-			<a href="https://github.com/sranney" target="_blank"><button class="btn btn-primary"><span class="fa fa-github fa-3x fa-fw"></span></button></a>
-			<a href="https://stackoverflow.com/cv/spencer-ranney" target="_blank"><button class="btn btn-primary"><span class="fa fa-stack-overflow fa-3x"></span></button></a>
+			<a href="https://www.linkedin.com/in/spencer-ranney/" target="_blank"><button class="btn btn-primary"><span class="fa fa-linkedin fa-fw"></span></button></a>
+			<a href="https://github.com/sranney" target="_blank"><button class="btn btn-primary"><span class="fa fa-github fa-fw"></span></button></a>
+			<a href="https://stackoverflow.com/cv/spencer-ranney" target="_blank"><button class="btn btn-primary"><span class="fa fa-stack-overflow"></span></button></a>
 		</div>			
 	</div>
+
+	<footer class="footer">
+		<div class="container-fluid">
+			Copyright &copy; 2017 Spencer Ranney
+		</div>
+	</footer>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/2a8a6780db.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

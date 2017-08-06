@@ -1,7 +1,14 @@
+html{
+	position:relative;
+	min-height:100%;
+}
+
 /*sets background for all pages*/
 body{
 	background-image:url("../images/01-place-inside-psd.jpg");
 	-webkit-background-size: cover;
+	margin-bottom:60px;
+	padding-bottom:15px;
 }
 
 /*sets stylings for navigation bar.*/
@@ -274,31 +281,83 @@ a#panelheader:hover span.fa.fa-arrow-right{
 	
 }
 
-.btn{
-	border-radius:15px;
-	width:90px;
-	height:90px;
-	margin:15px;
-	float:none;
+body > div > div.jumbotron.sideBar.hidden-xs.hidden-sm.col-md-12.col-lg-12.portcontainer{
+	padding-top:0px;
 }
 
-.port-btn{
-	margin-top:-10px;
+button.btn.btn-primary.port-btn{
+	padding:0px;
+	font-size:30px;
 }
 
-.btn:hover{
+button.btn.btn-primary:hover{
+    color:#2C3E50;	
+    background-color:#FFFAE4;	
 	border-radius:45px;
 }
 
-.btn-primary{
+button.btn.btn-primary {
+	animation-duration:4s;
+	animation-name:swell;
+	-webkit-box-shadow: none;
+	font-size:45px;
+	background-color:black;
+	display:auto;
+	border-radius:15px;
     background-color:#2C3E50;	
     color:#FFFAE4;
+    margin:15px;
+    width:90px;
+    height:90px;
     border:0px;
 }
 
-.btn-primary:hover{
-    color:#2C3E50;	
-    background-color:#FFFAE4;	
+@keyframes swell{
+	0%{
+		font-size:5px;
+	    color:#2C3E50;	
+	    background-color:#FFFAE4;
+    	visibility: hidden;
+		border-radius:100px;
+	    margin:-28px;
+	    width:10px;
+	    height:10px;
+	}
+
+	40% {
+		font-size:45px;
+		display:auto;
+		border-radius:100px;
+		padding:5px 15px;
+	    margin:15px;
+	    width:90px;
+	    height:90px;
+   	}
+
+   	80%{
+		border-radius:15px;
+   	}
+
+	100%{
+		background-color:#2C3E50;	
+	    color:#FFFAE4;
+	}
+
+}
+
+button.submitbtn{
+	border:2px solid #bbb;
+	width:300px;
+	font-size:45px;
+    border-radius:15px;
+    background-color:#2C3E50;	
+    color:#FFFAE4;	
+    margin:10px 0px;
+}
+
+.submitbtn:hover{
+	color:#2C3E50;	
+    background-color:#FFFAE4;
 }
 
 .panel-group .panel-heading+.panel-collapse>.list-group,
@@ -316,7 +375,7 @@ ul.nav.navbar-nav.hidden-md.hidden-lg.navbar-right.connect>li{
 	display:inline-block;
 }
 
-@media (max-width: 767px){
+@media only screen and (max-width: 767px){
 	.navbar-nav .open .dropdown-menu>li>a{
 		padding-left:15px;
 	}
@@ -326,7 +385,7 @@ ul.nav.navbar-nav.hidden-md.hidden-lg.navbar-right.connect>li{
 }
 
 
-@media (max-width: 1350px){
+@media only screen and (max-width: 1350px){
 	body{
 		background-size: auto;
 	}
@@ -343,19 +402,6 @@ ul.nav.navbar-nav.hidden-md.hidden-lg.navbar-right.connect>li{
 
 fieldset>legend{
 	color:#FFFAE4;
-}
-
-.submitbtn{
-	border:2px solid #bbb;
-	width:300px;
-	font-size:30px;
-}
-
-.submitbtn:hover{
-	color:#2C3E50;	
-    background-color:#FFFAE4;
-    border-radius:15px;
-
 }
 
 span.input-group-addon{
@@ -412,6 +458,27 @@ body > div > div.jumbotron.col-xs-12.col-sm-12.col-md-12.col-lg-12.portjumbo{
 	margin-bottom:0px;
 }
 
-@media (max-width: 1010px){
+@media only screen and (max-width: 1010px){
 	.panel-group{margin-top:20px;}
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;
+	background-color:;
+    background-color:#2C3E50;	
+    color:#FFFAE4;
+    text-align:center;
+}
+
+footer>div{
+	line-height:60px;
+}
+
+@media only screen and (min-width: 1010px){
+	footer.footer_port{
+		margin-left:-50px;
+	}
 }
