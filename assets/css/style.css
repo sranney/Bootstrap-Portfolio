@@ -482,3 +482,13 @@ footer>div{
 		margin-left:-50px;
 	}
 }
+
+.project img{
+	max-height:0;
+	width:100vh;
+	transition:all 0.5s ease;
+}
+
+.project:hover img{
+	max-height:50vh
+}
